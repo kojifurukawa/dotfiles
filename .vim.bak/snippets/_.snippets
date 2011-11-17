@@ -1,0 +1,37 @@
+# Global snippets
+
+# (c) holds no legal value ;)
+snippet date
+	`strftime("%Y-%m-%d")`
+	
+	
+# html,erb
+snippet html
+	<html>
+	${1}
+	</html>
+snippet body
+	<body>
+		${1}
+	</body>
+snippet head
+	<head>
+	  <title>${1:`substitute(Filename('', 'Page Title'), '^.', '\u&', '')`}</title>${2}
+	</head>
+snippet title
+	<title>${1:`substitute(Filename('', 'Page Title'), '^.', '\u&', '')`}</title>${2}
+snippet div
+	<div id="${1:name}">
+		${2}
+	</div>
+snippet h1
+	<h1 id="${1:heading}">${2:$1}</h1>
+snippet h2
+	<h2>${2:$1}</h2>
+snippet h3
+	<h3>${2:$1}</h3>
+snippet table
+	<table border="${1:0}">
+		<tr><th>${2:Header}</th></tr>
+		<tr><th>${3:Data}</th></tr>
+	</table>${4}

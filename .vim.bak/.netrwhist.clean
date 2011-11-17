@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/koji'
+let g:netrw_dirhist_2='/home'
+let g:netrw_dirhist_3='/home/koji'
+let g:netrw_dirhist_4='/home/koji/testapp/app/controllers'
+let g:netrw_dirhist_5='/home/koji/testapp/app/views'
+let g:netrw_dirhist_6='/home/koji/testapp/app/views/say_hello'
+let g:netrw_dirhist_7='/home/koji/blog_app/app/models'

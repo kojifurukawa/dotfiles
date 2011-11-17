@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/koji'
+let g:netrw_dirhist_2='/home'
+let g:netrw_dirhist_3='/home/koji'
+let g:netrw_dirhist_4='/home/koji/testweb'
+let g:netrw_dirhist_5='/home/koji/testweb/content'
+let g:netrw_dirhist_6='/home/koji/tutorial消さない/content'
+let g:netrw_dirhist_7='/home/koji/testweb/content'
+let g:netrw_dirhist_8='/home/koji/testweb'
+let g:netrw_dirhist_9='/home/koji/testweb/lib'
